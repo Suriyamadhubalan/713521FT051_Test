@@ -1,0 +1,27 @@
+body{
+    /* background-color: red; */
+}
+
+.outer-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    gap: 20px;
+    background-color: rgb(168, 34, 34);
+    padding: 30px;
+    margin-top: 70px;
+}
+
+
+img{
+    height: 100px;
+    margin-bottom: 20px;
+    display: block;
+    margin-inline: auto;
+}
+.Available{
+    background-color: rgb(151, 248, 6);
+}
+ul{
+    background-color: rgb(23, 23, 117);
+    /* height: 80px; */
+}
