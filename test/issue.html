@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="issue.css">
+</head>
+<body>
+
+    <ul class="nav nav-tabs fixed-top">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">contact</a>
+        </li>
+        
+      </ul>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center">ISSUE BOOK</h2>
+                        <form action="">
+                            <div class="form-group">
+                                <label for="name">&#128214;Book Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="Enter Book name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">&#128214;Book Number</label>
+                                <input type="text" id="email" class="form-control" placeholder="Enter Book Number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="text">Your Id Number</label>
+                                <input type="text" id="password" class="form-control" placeholder="Enter your Id Number" required>
+                            </div>
+                            <div class="date">
+                                <div class="form-group">
+                                    <label for="journeyDate">Issuing Date</label>
+                                    <input type="date" id="journeyDate" name="journeyDate" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="journeyDate">Return Date:</label>
+                                    <input type="date" id="journeyDate" name="journeyDate" required>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary" onclick="showAlert('Registration successfull')">Register</button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed-bottom text-center">
+        <p>© 2024 Abdul Kalam Library. All rights reserved.</p>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
